@@ -2,7 +2,7 @@
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="" title="."  description="">
         <siteMapNode url="./default.aspx" title="Home"  description="" />
-         <siteMapNode url="./admin/make2.aspx" title="edit and delete"  description="" />
+         <siteMapNode url="./admin/make2.aspx" title="Edit and Delete"  description="" />
            <siteMapNode url="./admin/NewCar.aspx" title="Add"  description="" />
     </siteMapNode>
 </siteMap>

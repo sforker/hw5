@@ -19,4 +19,7 @@ Partial Class detailsview
 
     End Sub
 
+    Protected Sub DetailsView1_PageIndexChanging(sender As Object, e As System.Web.UI.WebControls.DetailsViewPageEventArgs) Handles DetailsView1.PageIndexChanging
+
+    End Sub
 End Class

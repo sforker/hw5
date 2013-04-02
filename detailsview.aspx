@@ -2,13 +2,13 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server" >
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
         ConnectionString="<%$ ConnectionStrings:cs_hw5 %>" 
         SelectCommand="SELECT * FROM [car]"></asp:SqlDataSource>
 
     <asp:DetailsView ID="DetailsView2" runat="server" AllowPaging="True" 
-        AutoGenerateRows="False" DataKeyNames="CarID" DataSourceID="SqlDataSource1" 
+        AutoGenerateRows="False" DataKeyNames="CarID" DataSourceID="SqlDataSource1" CssClass="cssdetailsview"
         Height="50px" Width="125px">
         <Fields>
             <asp:BoundField DataField="make" HeaderText="make" SortExpression="make" />
